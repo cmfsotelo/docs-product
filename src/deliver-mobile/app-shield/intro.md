@@ -209,8 +209,8 @@ These are the values available in the **AppShield** configuration JSON.
 
 | Value                           | Type         | OS           | Description                                                                                       |
 | ------------------------------- | ------------ | ------------ | ------------------------------------------------------------------------------------------------- |
-| AddTrustedKeyboardSigner        | Text         | Android      | If BlockUntrustedKeyboards is set to True, this option can whitelist a third party keyboard. This option must be added for each keyboard software that you want to add to the whitelist. |
-| AddTrustedScreenReaderSigner    | Text         | Android      | If BlockUntrustedScreenreaders is set to True, this option can whitelist a third party screen reader. This option must be added for each screen reader software that you want to add to the whitelist. |
+| AddTrustedKeyboardSigner        | Text         | Android      | If BlockUntrustedKeyboards is set to True, this option can allow a third party keyboard. This option must be added for each keyboard software that you want to add to the allow list. |
+| AddTrustedScreenReaderSigner    | Text         | Android      | If BlockUntrustedScreenreaders is set to True, this option can allow a third party screen reader. This option must be added for each screen reader software that you want to add to the allow list. |
 | AllowJailbrokenRootedDevices    | Boolean      | iOS, Android | If set to True, users can run the app on the jailbroken devices.                            |
 | AllowScreenshot                 | Boolean      | iOS, Android | If set to True, users can take screenshots of the app.                                      |
 | AppShieldObfuscationRules       | Text(base64) | iOS, Android | Custom rules for obfuscation. See [Creating custom obfuscation rules](obfuscate-custom-rules.md). |
